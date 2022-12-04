@@ -2,62 +2,42 @@
 title: Home
 ---
 
-## Informations pratiques
+- Commencer déjà par programmer l'exponentiation rapide, afin de calculer le chiffré de
 
-Séminaire habituellement le jeudi à 11h, Bâtiment Descartes, 3ème étage.
+m = 38817594430224640531948138935390316817521938816897081155369678977430491610293
 
-### Prochain Séminaire: 
+avec les nombres premiers suivants
+p = 66288176273580998209477836248669781909129396031562813740315924314972782813923
+q = 48605347250683966724594363679449768190927730140725487943059368852545853253907
 
-#### Jeudi 8 avril 2021 à 11h00 via Zoom
+ainsi qu'avec l'exposant de déchiffrement e = 8550423785110472851. Calculer l'exposant de déchiffrement.
 
-#### LPN a densité variable, et fonctions faiblement
-pseudoaléatoires dans des classes de complexité basses
+Exercices de programmation pour RSA:
 
-Variable-density LPN and low-complexity weak
-pseudorandom functions
+- RSA avec modulo commun: retrouver le message initial envoyé à Alice et Bob, sachant qu'iels ont recu.e.s les messages suivants: 
 
-Les fonctions faiblement pseudoaléatoires (WPRFs) sont des
-fonctions F_K indistinguables d'une fonction totalement aléatoire à
-partir de paires (x, F_K(x)) pour des x aléatoires. Ces fonctions ont
-diverses applications en cryptographie symétrique - elles permettent par
-exemple de construire des MACs, ou des systèmes de chiffrement à flot -
-et l'existence de telles fonctions dans des classes de complexité basses
-est une question fondamentale en théorie de l'apprentissage. Dans ce
-papier, nous étudions l'existence de WPRFs dans une classe de complexité
-particulièrement faible : les circuits booléens de taille polynomiale et
-de profondeur 2, avec une rangée de portes ET (de degré entrant
-arbitraire), et une unique porte XOR avant la sortie. Le choix de cette
-classe particulière est aussi motivé par une application surprenante au
-domaine du calcul sécurisé : nous démontrons que l'existence d'une WPRF
-dans cette classe permet d'améliorer radicalement l'efficacité de la
-phase de précalcul d'essentiellement tous les protocoles de calcul
-sécurisé modernes.
+c1 = 2374391886217408941657476376009678631811685682521735273584858760321528703447645458899210327491011329510992240791375732900687528349349971924881493157392625
+c2 = 10920236479686428772681772771705357088607405220792230199283666355661069502234561026310967810413656294180499757277403190848118066303210664656350649271731
 
-Nous introduisons une nouvelle variante de l'hypothèse LPN (qui
-conjecture la difficulté de décoder des mots de codes bruités dans un
-code linéaire aléatoire), où la matrice génératrice du code et le
-vecteur de bruit ont tous deux une densité variable. Nous montrons que
-sous cette nouvelle hypothèse, il est possible de construire une WPRF
-calculable avec une rangée de ET, et un unique XOR. Nous étudions
-ensuite la sécurité de cette nouvelle construction, sous l'angle d'une
-variante de LPN, et sous l'angle des fonctions booléennes. Nous
-démontrons que de nombreuses classes d'attaques (attaques linéaires,
-attaques algébriques, attaques par requêtes statistiques, cryptanalyse
-linéaire, et attaques AC0) ne peuvent pas asymptotiquement invalider
-cette hypothèse.
+et que le modulo commun utilisé est:
+N = 2525225416599827507267619884292068507684210275024217406437089504188531211163141708944901703977997953169165875722256878086433873273479685434332821025838877
 
-Basé sur des travaux joints avec Elette Boyle, Niv Gilboa, Yuval Ishai,
-Lisa Kohl, et Peter Scholl, présentés à FOCS 2021.
+et que les exposants de déchiffrement sont: 
+
+e1 = 14960341825360504183 et e2 = 8658896556033423589
 
 
+- Retrouver la factorisation de 
+N = 41425321056593929672502264616970281911913149005819425885159431425752790059367703311
+
+- Retrouver la factorisation de
+N = 27213716393115405899585017099144506859069883524026398140546466358968552604221965528003533461593034488719126775594181767016502660263535778871320377888521
 
 
+- On considère le modulo commun RSA suivant: 
+N = 44703719258789714997500535794289148040155536123671111796372538228043164788697
 
-## Calendrier
-
-#### 11 mars:
-
-## Précédents séminaires
+Exprimer ce nombre en binaire ou en héxadécimal. Que constatez-vous ? En déduire la factorisation de ce nombre.
 
 
 
